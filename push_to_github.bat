@@ -10,9 +10,9 @@ echo Your current Git user:
 git config user.name
 git config user.email
 echo ==============================================================
-echo Default remote repo: https://github.com/23bce377-debug/ContinuousTesting.git
+echo Default remote repo: https://github.com/Vraj3005/ContinuousTesting.git
 set /p "REPO_URL=Enter your GitHub Repo URL [or press Enter for default]: "
-if "%REPO_URL%"=="" set "REPO_URL=https://github.com/23bce377-debug/ContinuousTesting.git"
+if "%REPO_URL%"=="" set "REPO_URL=https://github.com/Vraj3005/ContinuousTesting.git"
 
 git remote remove origin 2>nul
 git remote add origin %REPO_URL%

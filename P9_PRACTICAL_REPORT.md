@@ -18,7 +18,7 @@ To implement a simple continuous testing pipeline using Jenkins or other open-so
 | **Programming Language** | Python 3.14.2 |
 | **Automated Testing Framework** | `pytest` 9.1.1 |
 | **Version Control System** | Git 2.53.0 |
-| **Code Hosting Platform** | GitHub (`github.com/23bce377-debug/ContinuousTesting`) |
+| **Code Hosting Platform** | GitHub (`github.com/Vraj3005/ContinuousTesting`) |
 | **CI/CD Automation Servers** | **Jenkins** (`Jenkinsfile`) & **GitHub Actions** (`.github/workflows/continuous_testing.yml`) |
 
 ---
@@ -258,7 +258,7 @@ Finished: SUCCESS (Build #3)
    - Press `3` to fix the bug: Show the pipeline recovering to green (`Finished: SUCCESS`).
 
 2. **Option 2: Pushing to GitHub (Live Cloud CI)**
-   - Create a repository named `ContinuousTesting` on your GitHub account (`github.com/23bce377-debug`).
+   - Repository URL: `https://github.com/Vraj3005/ContinuousTesting`
    - Double-click [`push_to_github.bat`](file:///c:/Desktop/SEM-7/STQA/P9/push_to_github.bat) and press Enter.
    - Open your repository on GitHub and click the **Actions** tab $\rightarrow$ Show the green checkmark on the `Continuous Testing Pipeline`!
 
